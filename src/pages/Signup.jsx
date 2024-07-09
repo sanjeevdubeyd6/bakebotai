@@ -31,7 +31,7 @@ function Signup() {
         const { user, session, error } = await supabase.auth.signUp({
             email: email,
             password: password,
-            redirectTo: 'https://localhost:5173/',
+            redirectTo: window.location.href,
             options: {
                 data: {
                     firstName: firstName,
@@ -75,7 +75,7 @@ function Signup() {
         const { user, session, error } = await supabase.auth.signInWithOAuth({
             provider: 'google',
             options: {
-                redirectTo: 'https://localhost:5173/dashboard'
+                redirectTo: `${window.location.href}/dashboard`
             }
         }).then(() => {
             setIdentity(user.email)

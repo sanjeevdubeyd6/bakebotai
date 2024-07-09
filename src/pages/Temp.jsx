@@ -23,8 +23,8 @@ function Temp() {
         const response = await axios.post(devUrl,
             {
                 price: 'price_1NI5WF2tbJF1RhFu66jStxfr',
-                success_url: 'http://localhost:5173/dashboard',
-                cancel_url: 'http://localhost:5173/'
+                success_url: `${window.location.href}/dashboard`,
+                cancel_url: window.location.href
             },
             {
             headers: {

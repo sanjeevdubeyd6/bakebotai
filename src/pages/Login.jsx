@@ -60,7 +60,7 @@ function Login() {
         const { user, session, error } = await supabase.auth.signInWithOAuth({
             provider: 'google',
             options: {
-                redirectTo: 'http://localhost:5173/auth',
+                redirectTo: `${window.location.href}/auth`,
             }
 
         }).then(() => {
