@@ -1,4 +1,4 @@
-import supabase from '../Supabase.js'
+import supabase from '../supabase.js'
 
 const getWords = async () => {
     const user = await supabase.auth.getUser()

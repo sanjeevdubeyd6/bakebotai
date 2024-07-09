@@ -2,7 +2,7 @@ import React, { useMemo, useState, useRef } from 'react';
 import JoditEditor from 'jodit-react';
 import { AiFillStar } from 'react-icons/ai';
 import { OpenAI } from 'openai-streams';
-import supabase from '../Supabase';
+import supabase from '../supabase';
 import { useEffect } from 'react';
 import Quill from './Quill';
 import { useTrackingCode } from 'react-hubspot-tracking-code-hook';

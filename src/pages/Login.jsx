@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo } from 'react'
 import Footer from '../components/Footer';
 import HeaderLogin from '../components/HeaderLogin'
-import supabase from '../Supabase'
+import supabase from '../supabase'
 import { useHistory } from 'react-router-dom'
 import { checkUserPlan } from './functions'
 import Swal from 'sweetalert2'

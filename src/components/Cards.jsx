@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import supabase from '../Supabase'
+import supabase from '../supabase'
 import { useTrackingCode } from 'react-hubspot-tracking-code-hook';
 
 function Cards() {

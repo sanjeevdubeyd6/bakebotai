@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import '../App.css'
 import { checkTableForDoc } from './functions'
 import axios from 'axios'
-import supabase from '../Supabase'
+import supabase from '../supabase'
 
 const prodUrl = 'https://bakedbot-langchain-production.up.railway.app/training-status'
 const devUrl = 'http://localhost:3000/training-status'

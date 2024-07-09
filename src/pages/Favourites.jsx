@@ -1,5 +1,5 @@
 import React from 'react'
-import supabase from '../Supabase'
+import supabase from '../supabase'
 
 function Favourites() {
     const [fav, setFav] = React.useState([])

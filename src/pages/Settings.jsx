@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import supabase from '../Supabase'
+import supabase from '../supabase'
 import axios from 'axios'
 
 function Settings() {

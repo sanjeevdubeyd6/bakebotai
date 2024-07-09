@@ -1,6 +1,6 @@
 import React, { useMemo, useState, useRef, useEffect } from 'react';
 import JoditEditor from 'jodit-react';
-import supabase from '../Supabase'
+import supabase from '../supabase'
 import { OpenAI } from "openai-streams";
 import { AiFillStar } from 'react-icons/ai'
 import Quill from './Quill';

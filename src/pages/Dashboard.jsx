@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Sidebar from '../components/Sidebar'
 import Temp from './Temp'
-import supabase from '../Supabase'
+import supabase from '../supabase'
 import logo from '../assets/logo.png'
 import { useTrackingCode } from 'react-hubspot-tracking-code-hook'
 

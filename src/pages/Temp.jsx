@@ -1,6 +1,6 @@
 import React from 'react'
 import axios from 'axios'
-import supabase from '../Supabase'
+import supabase from '../supabase'
 
 function Temp() {
     let bearerKey = 'Bearer '

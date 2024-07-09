@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import Footer from '../components/Footer';
 import HeaderLogin from '../components/HeaderLogin'
-import supabase from '../Supabase'
+import supabase from '../supabase'
 import Swal from 'sweetalert2'
 import { useTrackingCode } from 'react-hubspot-tracking-code-hook';
 
